@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Depression Detected</title>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            height: 650px;
+            font-family: 'Courgette', sans-serif;
+            background: #092756;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            letter-spacing: 1.2px;
+            background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -moz-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -moz-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+            background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -webkit-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -webkit-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+            background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -o-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -o-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+            background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -ms-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -ms-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+            background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), linear-gradient(to bottom, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), linear-gradient(135deg, #670d10 0%, #092756 100%);
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756', GradientType=1);
+        }
+        
+        h1 {
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            font-size: 40px;
+            color: red;
+            text-align: center;
+            margin-bottom: 1%;
+            font-family: Courgette;
+        }
+        
+        .glow {
+            color: red;
+            text-align: center;
+            -webkit-animation: glow 1s ease-in-out infinite alternate;
+            -moz-animation: glow 1s ease-in-out infinite alternate;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+        
+        @-webkit-keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #b2ffff, 0 0 40px #b2ffff, 0 0 50px #b2ffff, ;
+            }
+            to {
+                text-shadow: 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 50px red;
+            }
+        }
+        
+        #container {
+            margin: 20px auto;
+            width: 630px;
+            height: 395px;
+            top: 52%;
+            left: 50%;
+            text-align: justify;
+            padding: 30px 30px;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            box-shadow: 5px 15px 70px #000;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: lightblue;
+            font-weight: bold;
+            text-shadow: 3px 3px 3px black;
+        }
+        
+        #choices {
+            width: 480px;
+            position: absolute;
+            right: 25;
+            top: 70%;
+            left: 13%;
+            padding: 10px;
+            font-size: 22px;
+            font-weight: bold;
+            font-family: Courgette;
+        }
+        
+        .choice:link,
+        .choice:visited {
+            background-color: gray;
+            color: white;
+            padding: 14px 25px;
+            font-size: 22px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .choice:hover {
+            background-color: red;
+            border: 2px;
+            border-style: solid;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <br>
+        <h1 class="glow">Depression Detected !!<br>Patient is Suffering from Depression</h1>
+        <div id="container">
+            Depression is a treatable mental disorder but it also has a negative effect on your emotions and feelings, actions and thinking. It causes feelings of sadness or lack of interest in activities that once he enjoyed a lot. Moreover, it effects persons efficiency
+            at work as well as in person life, Person usually loses his interest in the activity that he enjoyed a lot. Loss of someone and ending of job and relationships have a bad experience for any person and It has normal to have a feeling of sadness,
+            but being sad is not considered as having depression. MDD is among the curable mental disorders. Approx. 85% to 90% of people respond well to the treatment and some medical conditions are responsible of depression e.g. Brain tumour or deficiency
+            of some vitamin.
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div id="choice">
+            <a href="https://major-depressive-disorder.herokuapp.com/" class="choice">Back</a>
+        </div>
+</body>
+
+</html>

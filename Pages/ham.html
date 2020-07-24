@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ham.css">
+    <title>HAM-D</title>
+</head>
+
+<body>
+    <br><br>
+    <h1>HAM-D Diagonistic Questionniare</h1>
+    <div id="container">
+        <div id="start"><br>Start !!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"><b></div>
+            <br><br>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+                <div class="choice" id="E" onclick="checkAnswer('E')"></div> 
+            </div>
+        </div>
+	 <div id="scoreContainer" style="display: none"><br></div>
+    </div>
+    <div id="progress"></div>
+    <script src="js/ham.js"></script>
+<div id="overlay-area"></div>
+</body>
+</html>

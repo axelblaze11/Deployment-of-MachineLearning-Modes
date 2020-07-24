@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="details.css">
+    <title>DSM-V Criteria</title>
+</head>
+
+<body>
+    <br><br>
+    <h1>Depression DSM-5 Diagonistic Criteria Test</h1>
+    <div id="container">
+        <div id="start"><br>Start !!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"><b></div>
+            <div id="choices">
+		<br><br><br><br>
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="P" onclick="checkAnswer('P')"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+	<div id="scoreContainer" style="display: none"><br></div>
+    </div>
+    <script src="js/dsm.js"></script>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><H3><center><b>
+The DSM-5 outlines the following criterion to make a diagnosis of depression.<br>The individual must be experiencing five or more symptoms during the same<br>2-week period and at least one of the symptoms should be either (1) depressed<br>mood or (2) loss of interest or pleasure.
+<div id="overlay-area"></div>
+</body>
+</html>

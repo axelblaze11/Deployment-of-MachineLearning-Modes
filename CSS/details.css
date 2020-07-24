@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(51.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: Open Sans;
+    color: #FFFFFF;
+}
+
+#container {
+    margin: 20px auto;
+    width: 560px;
+    height: 370px;
+    color: #D3D3D3;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 5px 15px 70px #000;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ba3f38;
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: Courgette;
+}
+
+#start {
+    font-size: 2.5em;
+    font-family: Courgette;
+    font-weight: bolder;
+    word-break: break-all;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #003366;
+    border-radius: 100%;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: #FF6600;
+}
+
+#start:hover {
+    border: 5px solid lightseagreen;
+    color: lightseagreen;
+}
+
+#question {
+    width: 500px;
+    height: 125px;
+    top: 50px;
+    position: absolute;
+    font-family: Open Sans;
+    color: #de822f;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+#question p {
+    margin: 0;
+    padding: 15px;
+    font-size: 1.25em;
+}
+
+#choices {
+    width: 480px;
+    position: absolute;
+    right: 25;
+    top: 125px;
+    left: 13%;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.choice {
+    display: inline-block;
+    width: 175px;
+    text-align: center;
+    border: 2px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.choice:hover {
+    border: 4px;
+    border-color: white;
+    background-color: green;
+    border-style: solid;
+    font-weight: bold;
+}
+
+#progress {
+    width: 500px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 5px;
+    text-align: right;
+}
+
+.prog {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#scoreContainer {
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 5px;
+    width: 560px;
+    height: 370px;
+    top: 0%;
+    left: 0%;
+    box-shadow: 0px 5px 15px 0px;
+    position: absolute;
+    display: none;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #35281E
+}
+
+#overlay-area {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
